@@ -29,4 +29,7 @@
 # Qt Creator backups
 *.autosave
 
+# Pro User
+*.pro.user
+
 # End of https://www.gitignore.io/api/qtcreator
