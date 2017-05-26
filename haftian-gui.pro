@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    listusbdrive.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    listusbdrive.h
 
 FORMS    += mainwindow.ui
+
+LIBS += -ludev
